@@ -20,8 +20,14 @@ I am a beginner software developer. My goal is to become a good front-end develo
 
 ## Code example
 ```
-function disemvowel(str) {
-  return str.replace(/[aeiou]/gi, "");
+function combine() {
+  let newObj = {};
+  for (let obj of arguments) {
+    for (let key in obj) {
+      newObj[key] = (obj[key] + (newObj[key] || 0));
+    }
+  }
+  return newObj;
 }
 ```
 
