@@ -19,3 +19,10 @@ h2,h3,h5,h6 {
   text-align: center;
   font-size: 32px;
 }
+.photo {
+  margin-left: auto;
+  align-self:center;
+}
+header {
+  display: flex;
+}
