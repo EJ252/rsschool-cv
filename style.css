@@ -19,3 +19,24 @@ h2,h3,h5,h6 {
   text-align: center;
   font-size: 32px;
 }
+.photo {
+  margin-left: auto;
+  align-self:center;
+}
+header {
+  display: flex;
+}
+ul.hr {
+  margin: 0;
+}
+ul.hr li {
+  display: inline;
+  margin-right: 10px;
+}
+ul.hr li:hover {
+  background-color: #d5e5fb;
+  border-radius: 0.5rem;
+}
+ul.hr li a::before {
+  content: "#";
+}
