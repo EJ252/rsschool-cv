@@ -11,115 +11,133 @@
   </head>
   <body>
       <header>
-        <div>
+        <div class="title">
           <h1>Vadzim Embala</h1>
-          <h4>CV &#8211; Software developer</h4>
+          <h4>Frontend developer</h4>
         </div>
         <div class="photo">
-          <a href="https://ej252.github.io/rsschool-cv/"><img src="flat.jpg" alt="THE WORLD IS FLAT" style="width: 222px;"></a>
+          <a href="./avatar-white-wall.jpg"><img src="./avatar.png" alt="my avatar"></a>
         </div>       
       </header>
-      <hr>
+      
       <main>
-        <nav>
+        <!--<nav>
           <ul class="hr">
             <li><a href="#Contacts">Contacts</a></li>
             <li><a href="#AboutMe">About me</a></li>
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#CodeExample">Code example</a></li>
             <li><a href="#Projects">Projects</a></li>
-            <li><a href="#WorkExpirience">Work expirience</a></li>
+            <li><a href="#WorkExpirience">Work experience</a></li>
             <li><a href="#Education">Education</a></li>
             <li><a href="#English">English</a></li>
           </ul>
         </nav>
-        <hr>
-        <div id="Contacts">
-          <h2>Contacts</h2>
-          <ul>
-            <li>E-mail: 
-              <a href="mailto:embalo@outlook.com">embalo@outlook.com</a>
-            </li>
-            <li>WhatsApp: 
-              <a href="https://api.whatsapp.com/send?phone=+966508178503">+966 50 817 8503</a>
-            </li>
-          </ul>
-        </div>
-        <hr>
-        <section id="AboutMe">
-          <h2>About me</h2>
-          <p>
-            I am a beginner software developer. My goal is to become a good front-end developer because 
-            I enjoy creating. I have worked in the chemical industry 7 years. I'm a fast learner, hardworking and determined.
-          </p>
-        </section>
-        <hr>
-        <div id="Skills">
-          <h2>Skills</h2>
+        
+        -->
+        <aside>
+          <div id="Contacts">
+            <h2>Contacts</h2>
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Basics of JavaScript</li>
-              <li>Arduino</li>
-              <li>Lua</li>
+              <li>E-mail: 
+                <a href="mailto:embalo@outlook.com">embalo@outlook.com</a>
+              </li>
+              <li>Discord: 
+                <a href="https://discordapp.com/users/887690562847784971">EJ252</a>
+              </li>
+              <li>WhatsApp: 
+                <a href="https://api.whatsapp.com/send?phone=+966508178503">+966 50 817 8503</a>
+              </li>
+              <li>Riyadh, Saudi Arabia</li>
             </ul>
-        </div>
+          </div>
+          <div id="Skills">
+            <h2>Skills</h2>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>SCSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+                <li>Arduino</li>
+                <li>Lua</li>
+              </ul>
+          </div>
+          <div id="English">
+            <h2>Languages</h2>
+            <ul>
+              <li>Belarusian: native</li>
+              <li>Russian: native</li>
+              <li>English: A2</li>
+            </ul>
+          </div>
+        </aside>
         <hr>
-        <div id="CodeExample">
-          <h2>Code example</h2>
-          <div class="code">
-            <pre>
-  <code>function disemvowel(str) {
-    return str.replace(/[aeiou]/gi, "");
+        <div class="main-body">
+          <section id="AboutMe">
+            <h2>About me</h2>
+            <p>
+              I am a beginner software developer. My goal is to become a good front-end developer because 
+              I enjoy creating. I have worked in the chemical industry 7 years. I'm a fast learner, hardworking and determined.
+            </p>
+          </section>
+  
+          
+          <div id="CodeExample">
+            <h2>Code example</h2>
+            <div class="code">
+              <pre>
+  <code>
+  function getEmailDomain(email) {
+    const index = email.lastIndexOf('@');
+    return email.slice(index + 1);
   }</code>
-            </pre>
+              </pre>
+            </div>
+          </div>
+          
+          <div id="Projects">
+            <h2>Projects</h2>
+            <ul>
+              <li><a href="https://ej252.github.io/rsschool-cv/cv">Markdown & Git</a></li>
+              <li><a href="https://rolling-scopes-school.github.io/ej252-JSFEPRESCHOOL/js30-2-movieapp/">MovieApp</a></li>
+              <li><a href="https://rolling-scopes-school.github.io/ej252-JSFE2022Q1/shelter/pages/main/">Shelter</a></li>
+            </ul>
+          </div>
+          
+          <div id="WorkExpirience">
+            <h2>Work expirience</h2>
+              <ul>
+                <li>From 2019 to 2022 - production supervisor</li>
+                <li>From 2017 to 2019 - foreman</li>
+              </ul>
+          </div>
+          
+          <div id="Education">
+            <h2>Education</h2>
+              <ul>
+                <li>Belarusian State Technological University
+                  <ul>
+                    <li>Technology of basic organic and petrochemical synthesis
+                      <ul>
+                        <li>Chemical Industrial Engineer</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
           </div>
         </div>
-        <hr>
-        <div id="Projects">
-          <h2>Projects</h2>
-          <ul>
-            <li><a href="https://ej252.github.io/rsschool-cv/cv">Markdown & Git</a></li>
-          </ul>
-        </div>
-        <hr>
-        <div id="WorkExpirience">
-          <h2>Work expirience</h2>
-            <ul>
-              <li>From 2019 to 2021 I worked as a <i>production supervisor</i></li>
-              <li>From 2017 to 2019 I worked as a <i>foreman</i></li>
-            </ul>
-        </div>
-        <hr>
-        <div id="Education">
-          <h2>Education</h2>
-            <ul>
-              <li>Belarusian State Technological University
-                <ul>
-                  <li>Technology of basic organic and petrochemical synthesis
-                    <ul>
-                      <li>Chemical Industrial Engineer</li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-        </div>
-        <hr>
-        <div id="English">
-          <h2>English</h2>
-          <p>
-            A2
-          </p>
-        </div>
+
       </main>
-      <hr>
+      
       <footer>
         <div class="footer">
           <a href="https://github.com/ej252"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" 
-            alt="My GitHub" style="height:24px; margin-inline: 50px;"></a>
-          2021
-          <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS SCHOOL" style="height: 24px; margin-inline: 50px"></a>
+            alt="My GitHub" class="git"></a>
+          2022
+          <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg"
+            alt="RS SCHOOL" class="rss"></a>
         </div>
       </footer>    
   </body>
