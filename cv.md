@@ -4,7 +4,7 @@
 Vadzim Embala
 
 ## Conctacts
-* **E-mail:** w660@live.ru
+* **E-mail:** embalo@outlook.com
 
 * **WhatsApp:** +966 50 81785003
 
